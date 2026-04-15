@@ -14,4 +14,4 @@ def encrypt(text, keyword):
         else:
             result += char  
     return result
-    #perfundim
+    #perfundimi
