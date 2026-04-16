@@ -23,4 +23,12 @@ def decrypt(text, keyword):
     
     remaining = ''.join(c for c in alphabet if c not in keyword)
     key = keyword + remaining
+
+    result = ""
+    for char in text.upper():
+        if char in key:
+            result += alphabet[key.index(char)]
+        else:
+            result += char  
+    return result
   
