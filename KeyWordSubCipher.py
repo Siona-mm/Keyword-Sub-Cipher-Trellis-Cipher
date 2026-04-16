@@ -32,3 +32,16 @@ def decrypt(text, keyword):
     return result
 
 
+print("=== Keyword Substitution Cipher (Letters + Numbers) ===\n")
+
+message = input("Enter the sentence you want to encrypt: ")
+keyword = input("Enter the keyword: ")
+
+encrypted = encrypt(message, keyword)
+decrypted = decrypt(encrypted, keyword)
+
+print("\n--- Results ---")
+print("Original  :", message)
+print("Encrypted :", encrypted)
+print("Decrypted :", decrypted)
+
