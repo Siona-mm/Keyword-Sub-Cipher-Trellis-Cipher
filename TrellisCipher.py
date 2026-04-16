@@ -88,3 +88,17 @@ def trellis_decrypt(ciphertext: str) -> str:
     # ne fund i zevendesojm X-at me hapesira dhe e pastrojm tekstin
     plaintext = plaintext.replace("X", " ")
     return plaintext.strip()
+
+
+print("Trellis Cipher\n")
+
+message = input("Shkruaj fjaline per enkriptim: ")
+
+encrypted = trellis_encrypt(message)
+decrypted = trellis_decrypt(encrypted)
+
+print("\n--- Results ---")
+print("PlainText   :", message)
+print("Enkriptuar  :", encrypted)
+print("Dekriptuar  :", decrypted)
+print("Gjatesia     :", len(encrypted), "karaktere")
