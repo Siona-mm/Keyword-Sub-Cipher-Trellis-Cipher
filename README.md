@@ -51,6 +51,12 @@ Shembull i çelësit:
 - Çelësi = `PYTHONABCDEF...` (pa përsëritje + numrat në fund)
 
 
+## Struktura e Projektit
+- `KeyWordSubCipher.py` - Përmban logjikën e enkriptimit dhe dekriptimit të KeyWordSub.
+- `TrellisCipher.py` - Përmban logjikën e enkriptimit dhe dekriptimit të Trellis.
+- `README.md` - Dokumentacioni i plotë i projektit.
+
+
 ## Si të Ekzekutohet Programi
 
 1. Hapni folderin ku ndodhet skripta.
