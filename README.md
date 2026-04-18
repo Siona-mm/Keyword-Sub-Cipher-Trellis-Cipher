@@ -65,9 +65,8 @@ Shembull i çelësit:
 3. Zgjedhni "Run with Python" ose "Run Python File" 
 
 
-### Kushtet Paraprake
-
-Për të ekzekutuar këtë projekt, ju nevojitet:
-- Python 3.7 ose më i ri.
-- Nuk nevojiten librari të jashtme (Standard Library only).
+## Teknologjitë e përdorura
+- Python 3.x
+- Git / GitHub
+- VS Code
    
