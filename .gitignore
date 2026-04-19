@@ -1,0 +1,15 @@
+# Qe te injorohen folderat qe krijon Python automatikisht 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Injorohen skedaret e panevojshem te sistemit operativ
+.DS_Store
+Thumbs.db
+
+# Injorohen folderat e konfigurimeve te editoreve 
+.vscode/
+.idea/
+
+# Injorohen skedaret log 
+*.log
