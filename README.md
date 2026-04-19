@@ -51,9 +51,22 @@ Shembull i çelësit:
 - Çelësi = `PYTHONABCDEF...` (pa përsëritje + numrat në fund)
 
 
+# Struktura e Projektit
+
+- `KeyWordSubCipher.py` - Përmban logjikën e enkriptimit dhe dekriptimit të KeyWordSub.
+- `TrellisCipher.py` - Përmban logjikën e enkriptimit dhe dekriptimit të Trellis.
+- `README.md` - Dokumentacioni i plotë i projektit.
+
+
 ## Si të Ekzekutohet Programi
 
 1. Hapni folderin ku ndodhet skripta.
 2. Klikoni me të djathtin mbi file-in Python.
 3. Zgjedhni "Run with Python" ose "Run Python File" 
+
+
+## Teknologjitë e përdorura
+- Python 3.x
+- Git / GitHub
+- VS Code
    
